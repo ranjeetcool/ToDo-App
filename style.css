@@ -1,0 +1,130 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#todoContainer {
+    border: 1px solid black;
+    width: 500px;
+    height: 35px;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+
+#inputTask {
+    width: 205px;
+    height: 24px;
+    padding-top: 6px;
+    border: transparent;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    outline: none;
+    text-align: center;
+
+}
+#inputDesc {
+    width: 205px;
+    height: 24px;
+    padding-top: 6px;
+    border: transparent;
+    outline: none;
+    text-align: center;
+
+}
+
+#btnTODO {
+    width: 30px;
+    height: 35px;
+    border: transparent;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+
+#btnDeleteAll {
+    width: 30px;
+    height: 35px;
+    border: transparent;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#validateMsg{
+    text-align: center;
+    color: brown;
+}
+
+#listContainer {
+    margin: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+    column-gap: 40px;
+
+}
+
+.TDbox {
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 250px;
+    height: 115px;
+    margin: 15px;
+
+}
+
+.tbox {
+    border-bottom: 1px solid black;
+    width: 248px;
+    height: 40px;
+    display: flex;
+
+}
+
+.ttask {
+    border: transparent;
+    outline: transparent;
+    resize: none;
+    width: 165px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+.ttask::-webkit-scrollbar {
+    display: none;
+}
+
+.editBtn {
+    padding: 12px;
+    background: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+
+.deleteBtn {
+    padding: 12px;
+    background: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+
+.tdesc {
+    border: transparent;
+    outline: transparent;
+    resize: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 5px;
+    width: 240px;
+    height: 68px;
+}
+
+.tdesc::-webkit-scrollbar {
+    display: none;
+}
